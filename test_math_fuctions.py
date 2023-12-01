@@ -14,4 +14,9 @@ def test_calc_multiply():
 def test_calc_divide():
  output = divide_numbers(10,2)
  assert output == 5
-
+def test_mod():
+  output = my_mod(10, 2)
+  assert output == 0
+def test_int_divide():
+  output = int_divide(10, 3)
+  assert output == 3
